@@ -24,6 +24,11 @@ The chart ultimately displays the rising global temperatures over the years
 
    ![Alt Text](https://64.media.tumblr.com/465a1503e3d6aee271d51d7ca640a555/tumblr_o3anu2fe3H1r83d7lo4_500.gifv)
 
+Btw the chart renderings from Chart.Js are **smoooooooooooooooooooth** AF..like **Jiggly smooth** 
+
+![Alt Text](https://64.media.tumblr.com/ffc7a8b52a8d9280c198095ab453a3d9/tumblr_msioidFy2d1qh59n0o2_500.gifv)
+
+PS. I just learned that you can add gifs in your repos' decription
 
 Nasa dataset : https://data.giss.nasa.gov/gistemp/
 

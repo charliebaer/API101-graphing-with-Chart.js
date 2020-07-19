@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>working with API</title>
+  </head>
+  <body>
+    <script>
+        getData();
+     async function getData(){
+        const response = await fetch('ZonAnn.Ts+dSST.csv');
+        const data = await response.text();
+       
+        const table = data.split('\n').slice(1);
+        
+        console.log("entering loop");
+        table.forEach(elt=>{
+            const rows = elt.split(',');
+            const year = rows[0] ;
+            const temp= rows[1];
+            console.log(year,temp);
+        });
+     }
+     
+    </script>
+  </body>
+</html>
